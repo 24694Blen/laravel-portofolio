@@ -1,1 +1,10 @@
 //
+body{
+    margin: 0px;
+}
+*{
+    border: 1px solid red;
+}
+
+@import 'sections/nav';
+@import 'sections/footer';

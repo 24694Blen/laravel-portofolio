@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 
 //project
-Route::get('/home', 'PagesController@Home')->name('Home');
+Route::get('/home', 'PagesController@Home')->name('home');

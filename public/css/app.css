@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+}
+
+* {
+  border: 1px solid red;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav .nav__left {
+  flex: 1 1 15%;
+}
+
+.nav .nav__left .nav__list {
+  display: flex;
+}
+
+.nav .nav__left .nav__list .nav__item {
+  flex: 1 1 auto;
+  list-style-type: none;
+}
+
+.nav .nav__center {
+  flex: 1 1 85%;
+}
+
+.nav .nav__center .nav__list {
+  display: flex;
+}
+
+.nav .nav__center .nav__list .nav__item {
+  flex: 1 1 auto;
+  list-style-type: none;
+}
+
+footer {
+  border: 1px solid red;
+}
+
