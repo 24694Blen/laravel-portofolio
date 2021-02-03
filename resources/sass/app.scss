@@ -5,6 +5,9 @@ body{
 *{
     border: 1px solid red;
 }
-
+main{
+    height: 300px;
+    background-color: green;
+}
 @import 'sections/nav';
 @import 'sections/footer';

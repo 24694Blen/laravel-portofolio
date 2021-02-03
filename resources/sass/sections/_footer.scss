@@ -1,3 +1,153 @@
-footer{
-    border: 1px solid red;
+.footer{
+    padding: 100px 0;
+    max-width: 69%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    .footer__one{
+        flex: 1 1 20%;
+        .footer__list{
+            display: flex;
+            flex-wrap: wrap;
+
+            .footer__item{
+                padding: 10px 0;
+                list-style-type: none;
+                padding: 0;
+
+                svg{
+                    height: 210px;
+                    width: auto;
+                }
+
+                &--description{
+                    margin: 0;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Open Sans', sans-serif;
+
+                }
+            }
+        }
+    }
+    .footer__two{
+        flex: 1 1 25%;
+
+        .footer__list{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 100%;
+            padding-left: 100px;
+            .footer__item{
+                padding: 10px 0;
+                list-style-type: none;
+
+                &--text{
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Open Sans', sans-serif;
+
+                }
+                &--title{
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Gilroy', sans-serif;
+
+                }
+            }
+        }
+    }
+    .footer__three{
+        flex: 1 1 25%;
+
+        .footer__list{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 100%;
+
+            .footer__item{
+                padding: 10px 0;
+                list-style-type: none;
+                
+                &--text{
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Open Sans', sans-serif;
+
+                }
+                &--title{
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Gilroy', sans-serif;
+
+                }
+
+                .footer__social{
+                    
+                    .footer__list{
+                        list-style-type: none;
+                        padding: 0;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        .footer__item{
+                            justify-content: space-between;
+                            display: flex;
+                            .footer__btn{
+                                svg{
+                                    height: 70px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer__four{
+        flex: 1 1 25%;
+
+        .footer__list{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 100%;
+            padding-left: 100px;
+            .footer__item{
+                padding: 10px 0;
+                list-style-type: none;
+
+                &--text{
+                    margin: 0;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Open Sans', sans-serif;
+
+                }
+                &--title{
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Gilroy', sans-serif;
+
+                }
+            }
+        }
+    }
 }
