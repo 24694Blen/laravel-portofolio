@@ -196,3 +196,10 @@ body .nav .nav__left .nav__list .nav__item a {
         
     }
 }
+@media (min-width: 2561px) {
+    .nav .nav__center .nav__list {
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+}

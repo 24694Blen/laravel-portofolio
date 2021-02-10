@@ -234,10 +234,18 @@
     .footer .footer__upper .footer__four .footer__list {
         align-items: center;
     }
+    .footer .footer__lower {
+        display: flex;
+        padding: 0 23px;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (max-width: 1024px) {
+    .footer .footer__lower {
+        display: flex;
+        padding: 0 23px;
+    }
     .footer {
         padding: 100px 0;
         max-width: 100%;

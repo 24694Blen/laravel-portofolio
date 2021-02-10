@@ -1,0 +1,60 @@
+.bloks{
+    max-width: 69%;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    .bloks__wrapper{
+        text-align: center;
+        .bloks__title{
+            font-weight: 700;
+            text-decoration: none;
+            color: black;
+            font-family: 'Gilroy', sans-serif;
+            font-size: 30px;
+        }
+        .bloks__list{
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .bloks__item{
+                flex: 1 1 33.3333%;
+                padding: 0 30px;
+                .bloks__content{
+                    .bloks__item{
+                        text-align: center;
+                       svg{
+                           height: 100px;
+                           width: auto;
+                       }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px) { 
+    .bloks .bloks__wrapper .bloks__list .bloks__item {
+        flex: 1 1 33.3333%;
+        padding: 0px;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 767px) and (max-width: 768px) {
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 769px) and (max-width: 1024px) {  
+   
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media only screen and (min-width:1025px) and (max-width: 1440px) {
+    
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 2560px) {}

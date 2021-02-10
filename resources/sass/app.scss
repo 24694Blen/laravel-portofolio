@@ -4,10 +4,13 @@ body{
 }
 *{
     // border: 1px solid red;
+    box-sizing: border-box;
 }
-main{
-    height: 300px;
-    background-color: green;
-}
+
 @import 'sections/nav';
 @import 'sections/footer';
+
+@import 'sections/home';
+
+@import 'sections/main/bloks';
+@import 'sections/main/banner';
