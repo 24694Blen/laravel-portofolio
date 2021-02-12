@@ -4,6 +4,7 @@
 
 {{-- @include('bloks') --}}
 @include('project.sections.bloks')
+@include('project.sections.aboutme')
 @include('project.sections.banner')
 
 

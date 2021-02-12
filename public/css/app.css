@@ -540,6 +540,264 @@ body {
   }
 }
 
+.aboutme .aboutme__text {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutme .aboutme__text .aboutme__left {
+  flex: 1 1 50%;
+  background-color: #f2f2f2;
+  padding: 29px 61px 99px 61px;
+}
+
+.aboutme .aboutme__text .aboutme__left .aboutme__text--h1 {
+  font-size: 60px;
+  padding-top: 32px;
+  color: #5680E9;
+  margin-bottom: 3px;
+  margin-top: 0;
+  font-weight: 700;
+  font-family: "Gilroy", sans-serif;
+}
+
+.aboutme .aboutme__text .aboutme__left .aboutme__text--p {
+  font-size: 20px;
+  color: #5680E9;
+  font-weight: 400;
+  font-family: "Gilroy", sans-serif;
+}
+
+.aboutme .aboutme__text .aboutme__left .aboutme__text--btn {
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid #5680E9;
+  color: #5680E9;
+  font-weight: 700;
+  font-family: "Gilroy", sans-serif;
+  padding: 20px 30px;
+}
+
+.aboutme .aboutme__text .aboutme__right {
+  flex: 1 1 50%;
+}
+
+.aboutme .aboutme__text .aboutme__right .aboutme__title {
+  width: 100%;
+  background: #000;
+  margin-bottom: 100px;
+}
+
+.aboutme .aboutme__text .aboutme__right .aboutme__title--h1 {
+  color: #fff;
+  font-size: 60px;
+  font-family: "Gilroy", sans-serif;
+}
+
+.aboutme .aboutme__text .aboutme__right .aboutme__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__photo {
+  flex: 1 1 15%;
+}
+
+.aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__photo svg {
+  height: 227px;
+  width: auto;
+}
+
+.aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__photo p {
+  font-size: 20px;
+  font-family: "Gilroy", sans-serif;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 768px) {
+  .aboutme .aboutme__text .aboutme__left {
+    flex: 1 1 100%;
+  }
+
+  .aboutme .aboutme__text .aboutme__right {
+    flex: 1 1 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .aboutme .aboutme__text .aboutme__left {
+    flex: 1 1 100%;
+  }
+
+  .aboutme .aboutme__text .aboutme__right {
+    flex: 1 1 100%;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__photo {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  .aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__container {
+    flex: 1 1 100%;
+  }
+
+  .aboutme .aboutme__text .aboutme__right .aboutme__title {
+    margin-bottom: 27px;
+  }
+}
+
+@media (min-width: 2561px) {
+  .aboutme__photo {
+    flex: 1 1 50%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.aboutme__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  font-family: "Gilroy", sans-serif;
+  flex: 1 1 50%;
+}
+
+.aboutme__container .card {
+  position: relative;
+  width: 250px;
+  background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border-radius: 4px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+
+.aboutme__container .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.aboutme__container .card:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.aboutme .percent {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 50px #000;
+  background: #222;
+  z-index: 1000;
+}
+
+.aboutme .percent .number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.aboutme .percent .number h2 {
+  color: #777;
+  font-weight: 700;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.aboutme .card:hover .percent .number h2 {
+  color: #fff;
+  font-size: 60px;
+}
+
+.aboutme .percent .number h2 span {
+  color: #777;
+  font-size: 24px;
+}
+
+.aboutme .card:hover .percent .number h2 span {
+  color: #fff;
+}
+
+.aboutme .text {
+  position: relative;
+  color: #777;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.card:hover .text {
+  color: #fff;
+}
+
+.aboutme svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  z-index: 1000;
+}
+
+.aboutme svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #191919;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+
+.aboutme svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.aboutme .card:nth-child(1) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(883 - (440 * 50) / 100);
+  stroke: #5680E9;
+}
+
+.aboutme .card:nth-child(2) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 25) / 100);
+  stroke: #5AB9EA;
+}
+
+.aboutme .card:nth-child(3) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 25) / 100);
+  stroke: #8860D0;
+}
+
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/code.jpg");
   /* The image used */

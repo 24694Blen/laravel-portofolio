@@ -1,0 +1,121 @@
+.aboutme{
+    
+
+    .aboutme__text{
+        height: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+
+        .aboutme__left{
+            flex: 1 1 50%;
+            background-color: #f2f2f2;
+            padding: 29px 61px 99px 61px;
+            .aboutme__text--h1{
+                font-size: 60px;
+                padding-top: 32px;
+                color: #5680E9;
+                margin-bottom: 3px;
+                margin-top: 0;
+                font-weight: 700;
+                font-family: 'Gilroy', sans-serif;
+            }
+            .aboutme__text--p{
+                font-size: 20px;
+                color: #5680E9;
+                font-weight: 400;
+                font-family: 'Gilroy', sans-serif;
+            }
+            .aboutme__text--btn{
+                font-size: 20px;
+                background-color: transparent;
+                border: 1px solid #5680E9;
+                color: #5680E9;
+                font-weight: 700;
+                font-family: 'Gilroy', sans-serif;
+                padding: 20px 30px;
+            }
+        }
+        .aboutme__right{
+            flex: 1 1 50%;
+            
+            
+            .aboutme__title{
+                width: 100%;
+                background: #000;
+                margin-bottom: 100px;
+                &--h1{
+                    color: #fff;
+                    font-size: 60px;
+                    font-family: 'Gilroy', sans-serif;
+                }
+            }
+            .aboutme__wrapper{
+                display: flex;
+                flex-wrap: wrap;
+
+                .aboutme__photo{
+                    flex: 1 1 15%;
+                    
+                    svg{
+                        height: 227px;
+                        width: auto;
+                    }
+                    p{
+                        font-size: 20px;
+                        font-family: 'Gilroy', sans-serif;
+                    }
+                }
+            }
+        }
+
+        
+    }
+  }
+  @media (max-width: 767px) { 
+   
+ }
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 767px) and (max-width: 768px) {
+    .aboutme .aboutme__text .aboutme__left {
+        flex: 1 1 100%;
+    }
+    .aboutme .aboutme__text .aboutme__right {
+        flex: 1 1 100%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 769px) and (max-width: 1024px) {  
+    .aboutme .aboutme__text .aboutme__left {
+        flex: 1 1 100%;
+    }
+    .aboutme .aboutme__text .aboutme__right {
+        flex: 1 1 100%;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media only screen and (min-width:1025px) and (max-width: 1440px) {
+    .aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__photo {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+    .aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__container{
+        flex: 1 1 100%;
+    
+    }
+    .aboutme .aboutme__text .aboutme__right .aboutme__title {
+        margin-bottom: 27px;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 2560px) {}
+@media (min-width: 2561px) {
+    .aboutme__photo{
+        flex: 1 1 50%;
+    }
+        
+}

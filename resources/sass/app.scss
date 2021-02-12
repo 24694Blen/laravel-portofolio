@@ -7,10 +7,16 @@ body{
     box-sizing: border-box;
 }
 
+// colors
+// #5680E9  #5AB9EA  #8860D0 main colors
+// #84CEEB #C1C8E4 extra colors
+
 @import 'sections/nav';
 @import 'sections/footer';
 
 @import 'sections/home';
 
 @import 'sections/main/bloks';
+@import 'sections/main/aboutme';
+                      @import'sections/specials/percentage-circle';
 @import 'sections/main/banner';
