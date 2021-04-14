@@ -1,16 +1,15 @@
 
-
-
-
 <section class="banner">
-    <div class="banner__text">
-        <h1 class="banner__text--h1">
-            Lets start your project right now!
-        </h1>
-        <p class="banner__text--p">
-            Wees een van de eerste die met mij samen werkt. Ik ben een jong en hardwerkende student.
-        </p>
-        <button class="banner__text--btn">GET MORE INFO</button>
+    <div class="banner__banner">
+        <div class="banner__wrapper">
+            <div class="banner__content">
+                <ul class="banner__list">
+                    <li class="banner__item"><h1>Start a project</h1></li>
+                    <li class="banner__item"><p>Interested in working together? We<br> should queue up a chat. I’ll buy the<br> coffee.</p></li>
+                    <li class="banner__item"><a class="banner__btn" href="#">Contact me</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </section>
 

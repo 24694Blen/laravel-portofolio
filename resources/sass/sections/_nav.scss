@@ -1,205 +1,62 @@
-.nav{
-    background-color: white;
-    box-shadow: 0px 3px 8px gray;
-    height: 160px;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    .nav__left{
-        flex: 1 1 15%;
-        
-        .nav__list{
-            display: flex;
-            flex-wrap: wrap;
-            
-
-            .nav__item{
-                flex: 1 1 auto;
-                list-style-type: none;
-
-                a{
-                    svg{
-                        height: 310px;
-                        width: auto;
-                    }
-                    position:absolute;
-                    top: 10px;
-                }
-            }
-        }
-    }
-    .nav__center{
-        flex: 1 1 50%;
-
-        .nav__list{
-            display: flex;
-            justify-content: center;
-            margin: 0;
-            height: 100%;
-
-            .nav__item{
-                flex: 1 1 auto;
-                list-style-type: none;
-
-                a{
-                    font-weight: 700;
-                    font-family: 'Gilroy', sans-serif;
-                    font-size: 19px;
-                    color: black;
-                    text-decoration: none;
-                }
-            }
-        }
-    }
-   
-    .nav__right{
-        flex: 1 1 15%;
-
-        .nav__list{
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            height: 100%;
-
-            .nav__item{
-                flex: 1 1 auto;
-                list-style-type: none;
-
-                .nav__btn{
-                    transform: translate(-50%,-50%);
-                    padding: 20px 30px;
-                    border-radius: 6px;
-                    background-image: linear-gradient(to left, #FFC312,#EE5A24,#FFC321);
-                    text-decoration: none;
-                    background-size: 200%;
-                    font-weight: 700;
-                    font-family: 'Gilroy', sans-serif;
-                    transition: 0.6s;
-                    
-                    &:hover{
-                        background-position: right;
-                    }
-                    &--style{
-                        box-shadow: 0px 3px 8px gray;
-                        text-transform: uppercase;
-                        text-align: center;
-                        font-size: 16px;
-                        color: white;
-                        cursor: pointer;
-                    }
-                }
-                
-               
-            }
-        }
-    }
-}
-
-.header{
-  background-image: url("/images/ultraviolet.jpg"); /* The image used */
-  height: 700px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-
-@media (max-width: 767px) { 
-   header body .nav .nav__left .nav__list .nav__item a {
-        position: absolute;
-        top: -2px;
-        left: -8px;
-    }
-    body .nav .nav__left .nav__list .nav__item a svg {
-        height: 88px;
-        width: auto;
-    }
-    body .nav .nav__center .nav__list {
-        display: flex;
-        justify-content: center;
-        padding-left: 5px;
-        align-items: flex-start;
-        margin: 0;
-        height: 100%;
-        flex-direction: column;
-    }
+header {
+    padding-bottom: 40px;
+    font-family: "Gilroy", sans-serif;
     .nav {
-        background-color: white;
-        box-shadow: 0px 3px 8px grey;
-        height: 300px;
+        width: 100%;
+        background-color: red;
+        height: 130px;
         display: flex;
-        padding-left: 10px;
-        position: relative;
-        
-    }
-    .nav .nav__left .nav__list {
-       
-        margin-top: 27px;
-    }
-    .nav .nav__left {
-        flex: 1 1 100%;
-    }
-    .nav .nav__center {
-        flex: 1 1 100%;
-    }
-    .nav .nav__right {
-        flex: 1 1 100%;
-    }
- }
+        box-shadow: 0px 3px 10px gray;
 
-// Medium devices (tablets, 768px and up)
-@media (max-width: 768px) {
-.nav .nav__right .nav__list{
-    padding-left: 0px;
-}
-.nav .nav__right .nav__list .nav__item .nav__btn {
-    padding: 14px 21px;
-}
-body .nav .nav__left .nav__list .nav__item a {
-    position: absolute;
-    top: 10px;
-    left: -21px;
-}
+        .nav__left {
+            background-color: white;
+            flex: 1 1 20%;
 
-}
+            a {
+                .nav__logo {
+                    height: 170px;
+                    width: auto;
+                }
+            }
+        }
 
-// Large devices (desktops, 992px and up)
-@media (max-width: 1024px) {
-    .nav .nav__left .nav__list .nav__item a {
-        position: absolute;
-        top: 10px;
-        left: 3px;
-    }
-}
+        .nav__right {
+            background-color: white;
+            flex: 1 1 80%;
 
-// X-Large devices (large desktops, 1200px and up)
-@media (max-width: 1440px) {
-    .nav .nav__left .nav__list .nav__item a {
-        position: absolute;
-        top: 10px;
-        left: 36px;
-    }
-    .nav .nav__left .nav__list .nav__item a svg {
-        height: 196px;
-        width: auto;
-    }
-    
-}
+            .nav__list {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 500px;
+                padding-right: 40px;
+                padding-top: 46px;
 
-// XX-Large devices (larger desktops, 1400px and up)
-@media (max-width: 2560px) {
-    .nav .nav__center .nav__list {
-        flex-wrap: wrap;
-        align-items: center;
-        
+                .nav__item {
+                    .active{
+                        color: black;
+                        font-weight: 700;
+                    }
+                    a{
+                        
+                        color: #7510F7;
+                        text-decoration: none;
+                        font-size: 20px;
+                    }
+
+                    .nav__btn{
+                        padding: 10px 20px;
+                        border-radius: 50px;
+                        color: 7510F7;
+                        border: 3px solid #7510F7;
+                        text-decoration: none;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
     }
-}
-@media (min-width: 2561px) {
-    .nav .nav__center .nav__list {
-        flex-wrap: wrap;
-        align-items: center;
-        
-    }
+
+    .header {}
 }

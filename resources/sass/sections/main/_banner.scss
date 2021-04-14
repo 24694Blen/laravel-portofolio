@@ -1,71 +1,85 @@
-.banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/code.jpg"); /* The image used */
-    height: 330px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+.banner {
+    font-family: "Gilroy", sans-serif;
+    background-color: white;
+    height: 200px;
+    position: relative;
+    .banner__banner {
+        position: absolute;
+        bottom: -108px;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        .banner__wrapper {
+            height: 200px;
+            background-color: #141C3A;
+            .banner__content {
+                .banner__list {
+                    padding-top: 65px;
+                    list-style-type: none;
+                    display: flex;
+                    justify-content: space-around;
+                    .banner__item {
+                    h1{
+                        color: white;
+                        font-size: 40px;
+                    }
+                     p{
+                        font-style: italic;
+                        color: white;
+                        text-align: center;
+                        font-size: 22px;
+                     }
+                     .banner__btn{
+                         padding: 11px 40px;
+                         border: 3px solid #7510F7;
+                         border-radius: 100px;
+                         text-decoration: none;
+                         color: white;
+                         font-size: 40px;
+                         font-weight: 500;
+                     }
+                    }
+                }
 
-    .banner__text{
-        height: 100%;
-        text-align: center;
+            }
 
-        .banner__text--h1{
-            font-size: 80px;
-            padding-top: 32px;
-            text-decoration: underline;
-            color: white;
-            margin-bottom: 3px;
-            margin-top: 0;
-            font-weight: 700;
-            font-family: 'Gilroy', sans-serif;
         }
-        .banner__text--p{
-            font-size: 20px;
-            color: white;
-            font-weight: 400;
-            font-family: 'Gilroy', sans-serif;
-        }
-        .banner__text--btn{
-            font-size: 20px;
-            background-color: transparent;
-            border: 1px solid white;
-            color: white;
-            font-weight: 700;
-            font-family: 'Gilroy', sans-serif;
-            padding: 20px 30px;
-        }
+
     }
-  }
-  @media (max-width: 767px) { 
+
+
+}
+
+@media (max-width: 767px) {
     main .banner .banner__text .banner__text--h1 {
         font-size: 37px;
     }
+
     .banner .banner__text .banner__text--btn {
         font-size: 16px;
     }
- }
+}
 
 // Medium devices (tablets, 768px and up)
 @media only screen and (min-width: 767px) and (max-width: 768px) {
     main .banner .banner__text .banner__text--h1 {
         font-size: 50px;
     }
+
     .banner .banner__text .banner__text--btn {
         font-size: 16px;
     }
 }
 
 // Large devices (desktops, 992px and up)
-@media only screen and (min-width: 769px) and (max-width: 1024px) {  
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     .banner .banner__text .banner__text--h1 {
         font-size: 60px;
     }
 }
 
 // X-Large devices (large desktops, 1200px and up)
-@media only screen and (min-width:1025px) and (max-width: 1440px) {
-    
-}
+@media only screen and (min-width:1025px) and (max-width: 1440px) {}
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (max-width: 2560px) {}

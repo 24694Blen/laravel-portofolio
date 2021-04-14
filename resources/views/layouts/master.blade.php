@@ -29,33 +29,16 @@
         <header>
             <nav class="nav">
                 <div class="nav__left">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="">@include('images.logo')</a>
-                        </li>
-                    </ul>
+                    <a href=""><img class="nav__logo" src="\images\thenewguy887-01.png" alt="small-logo"></a>
                 </div>
-                <div class="nav__center">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="">Projects</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="">About me</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+
                 <div class="nav__right">
                     <ul class="nav__list">
-                        <li class="nav__item">
-                            <a class="nav__btn nav__btn--style" href="">Give me a Job</a>
-                        </li>
+                        <li class="nav__item"> <a class="active" href="">Home</a> </li>
+                        <li class="nav__item"> <a href="">experience</a> </li>
+                        <li class="nav__item"> <a href="">About me</a> </li>
+                        <li class="nav__item"> <a href="">Projects</a> </li>
+                        <li class="nav__item"><a class="nav__btn" href="">Contact me</a></li>
                     </ul>
                 </div>
             </nav>
@@ -72,108 +55,110 @@
 
 
         <footer class="footer">
-            <div class="footer__upper">
-                <div class="footer__one">
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a href="">@include('images.logo')</a>
-                        </li>
-                        <li class="footer__item">
-                            <p class="footer__item--description">
-                                Ik ben jong, gemotiveerd en leergierig. Ik hou van een uitdaging
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__two">
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a class="footer__item--text footer__item--title" href="">Sitemap</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__item--text" href="">Home</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__item--text" href="">Projects</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__item--text" href="">About me</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__item--text" href="">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="footer__wrapper">
+                <div class="footer__upper">
+                    <div class="footer__one">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="">@include('images.logo')</a>
+                            </li>
+                            <li class="footer__item">
+                                <p class="footer__item--description">
+                                    Ik ben jong, gemotiveerd en leergierig. Ik hou van een uitdaging
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__two">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__item--text footer__item--title" href="">Sitemap</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item--text" href="">Home</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item--text" href="">Projects</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item--text" href="">About me</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item--text" href="">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div class="footer__four">
+                    <div class="footer__four">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__item--text footer__item--title" href="">Contact</a>
+                            </li>
+                            <li class="footer__item">
+                                <p class="footer__item--text">E-mail: <a href="">blen2001@2outlook.com</a></p>
+                            </li>
+                            <li class="footer__item">
+                                <p class="footer__item--text">Tel: <a href="">0628221992</a></p>
+                            </li>
+                            <li class="footer__item">
+                                <p class="footer__item--text">Locatie: unknown</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__three">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__item--text footer__item--title" href="">Service</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item--text" href="">Nieuws</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item--text" href="">Jobs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item--text" href="">Blog</a>
+                            </li>
+                            <li class="footer__item">
+                                <div class="footer__social">
+                                    <ul class="footer__list">
+                                        <li class="footer__item">
+                                            <a class="footer__btn" href="">@include('images.insta')</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a class="footer__btn" href="">@include('images.facebook')</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a class="footer__btn" href="">@include('images.linkedin')</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a class="footer__btn" href="">@include('images.twitter')</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__lower">
                     <ul class="footer__list">
-                        <li class="footer__item">
-                            <a class="footer__item--text footer__item--title" href="">Contact</a>
+                        <li class="footer__item footer__item--text">
+                            <p>&copy; 2021 Blen Michil</p>
                         </li>
-                        <li class="footer__item">
-                            <p class="footer__item--text">E-mail: <a href="">blen2001@2outlook.com</a></p>
+                        <li class="footer__item footer__item--text">
+                            <p><a href="">Algemene Voorwaarden</a></p>
                         </li>
-                        <li class="footer__item">
-                            <p class="footer__item--text">Tel: <a href="">0628221992</a></p>
+                        <li class="footer__item footer__item--text">
+                            <p><a href="">Privacy Statment</a></p>
                         </li>
-                        <li class="footer__item">
-                            <p class="footer__item--text">Locatie: unknown</p>
+                        <li class="footer__item footer__item--text">
+                            <p><a href="">Cookies</a></p>
+                        </li>
+                        <li class="footer__item footer__item--text">
+                            <p><a href="">Vacatures</a></p>
                         </li>
                     </ul>
                 </div>
-                <div class="footer__three">
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a class="footer__item--text footer__item--title" href="">Service</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__item--text" href="">Nieuws</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__item--text" href="">Jobs</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__item--text" href="">Blog</a>
-                        </li>
-                        <li class="footer__item">
-                            <div class="footer__social">
-                                <ul class="footer__list">
-                                    <li class="footer__item">
-                                        <a class="footer__btn" href="">@include('images.insta')</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__btn" href="">@include('images.facebook')</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__btn" href="">@include('images.linkedin')</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__btn" href="">@include('images.twitter')</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer__lower">
-                <ul class="footer__list">
-                    <li class="footer__item footer__item--text">
-                        <p>&copy; 2021 Blen Michil</p>
-                    </li>
-                    <li class="footer__item footer__item--text">
-                       <p><a href="">Algemene Voorwaarden</a></p>
-                    </li>
-                    <li class="footer__item footer__item--text">
-                        <p><a href="">Privacy Statment</a></p>
-                    </li>
-                    <li class="footer__item footer__item--text">
-                        <p><a href="">Cookies</a></p>
-                    </li>
-                    <li class="footer__item footer__item--text">
-                        <p><a href="">Vacatures</a></p>
-                    </li>
-                </ul>
             </div>
         </footer>
     </div>
