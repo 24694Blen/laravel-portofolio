@@ -798,6 +798,113 @@ body {
   stroke: #8860D0;
 }
 
+.projects {
+  /* The Modal (background) */
+  /* Modal Content */
+  /* The Close Button */
+}
+
+.projects * {
+  border: 1px solid red;
+  font-size: 20px;
+  font-family: "Gilroy", sans-serif;
+}
+
+.projects .project__wrapper {
+  padding: 50px 0;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.projects .project__wrapper .projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.projects .project__wrapper .projects__list .projects__item {
+  padding: 10px 10px;
+  flex: 1 1 33%;
+}
+
+.projects .project__wrapper .projects__list .projects__item .projects__content .projects__card {
+  border-radius: 12px;
+  background-color: #b2b2b2;
+  color: white;
+}
+
+.projects .project__wrapper .projects__list .projects__item .projects__content .projects__card .projects__top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-image: url("/images/code.jpg");
+  /* The image used */
+  height: 400px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+}
+
+.projects .project__wrapper .projects__list .projects__item .projects__content .projects__card .projects__bottem {
+  padding: 10px;
+}
+
+.projects .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.projects .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  display: flex;
+}
+
+.projects .modal-content .modal__left {
+  width: 100%;
+}
+
+.projects .modal-content .modal__right {
+  width: 100%;
+}
+
+.projects .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.projects .close:hover,
+.projects .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/code.jpg");
   /* The image used */
