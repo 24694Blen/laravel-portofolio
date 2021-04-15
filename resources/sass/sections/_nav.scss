@@ -1,6 +1,7 @@
 header {
     padding-bottom: 40px;
     font-family: "Gilroy", sans-serif;
+
     .nav {
         width: 100%;
         background-color: red;
@@ -33,18 +34,19 @@ header {
                 padding-top: 46px;
 
                 .nav__item {
-                    .active{
+                    .active {
                         color: black;
                         font-weight: 700;
                     }
-                    a{
-                        
+
+                    a {
+
                         color: #7510F7;
                         text-decoration: none;
                         font-size: 20px;
                     }
 
-                    .nav__btn{
+                    .nav__btn {
                         padding: 10px 20px;
                         border-radius: 50px;
                         color: 7510F7;
@@ -58,5 +60,50 @@ header {
         }
     }
 
-    .header {}
+    .header {
+        .header__img {
+            background-image: url("/images/thenewguy887-01.png");
+            /* The image used */
+            background-color: transparent;
+            /* Used if the image is unavailable */
+            height: 500px;
+            /* You must set a specified height */
+            background-position: center;
+            /* Center the image */
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: 711px auto;
+            /* Resize the background image to cover the entire container */
+        }
+
+        .header__text {
+            text-align: center;
+            font-size: 70px;
+            color: #7510F7;
+            font-weight: 700;
+        }
+
+        .header__social {
+
+            .header__list {
+                list-style-type: none;
+                padding: 0;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                .header__item {
+                    justify-content: space-between;
+                    display: flex;
+
+                    .header__btn {
+                        svg {
+                            height: 113px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

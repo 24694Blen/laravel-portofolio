@@ -43,7 +43,25 @@
                 </div>
             </nav>
             <div class="header">
-
+                <div class="header__content">
+                    <div class="header__img"></div>
+                    <div class="header__text">A Front-end developer</div>
+                    <div class="header__social">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a class="header__btn" href="">@include('images.insta')</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__btn" href="">@include('images.facebook')</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__btn" href="">@include('images.linkedin')</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__btn" href="">@include('images.twitter')</a>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </header>
 
