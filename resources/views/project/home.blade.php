@@ -8,6 +8,7 @@
 @include('project.sections.projects')
 @include('project.sections.startup')
 @include('project.sections.investing')
+@include('project.sections.testimonials')
 @include('project.sections.banner')
 
 
