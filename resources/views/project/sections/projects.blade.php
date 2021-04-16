@@ -2,7 +2,7 @@
     <div class="project__wrapper">
         <div class="project__wrapper--title">
             <h1>My Recent Work</h1>
-            <p>Here are a few design projects i've worked on recently. Want to see more? Email me.</p>
+            <p>Here are a few design projects i've worked on recently. Want to see more? <span> Email me</span>.</p>
         </div>
         <ul class="projects__list">
             <li class="projects__item">

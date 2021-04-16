@@ -29,7 +29,7 @@
         <header>
             <nav class="nav">
                 <div class="nav__left">
-                    <a href=""><img class="nav__logo" src="\images\thenewguy887-01.png" alt="small-logo"></a>
+                    <a href=""><img class="nav__logo" src="\images\thenewguy887-01.svg" alt="small-logo"></a>
                 </div>
 
                 <div class="nav__right">

@@ -1,7 +1,7 @@
 .banner {
     font-family: "Gilroy", sans-serif;
     background-color: white;
-    height: 200px;
+    height: 800px;
     position: relative;
     .banner__banner {
         position: absolute;
@@ -13,8 +13,9 @@
             height: 200px;
             background-color: #141C3A;
             .banner__content {
+                height: 100%;
                 .banner__list {
-                    padding-top: 65px;
+                    padding-top: 40px;
                     list-style-type: none;
                     display: flex;
                     justify-content: space-around;
@@ -30,6 +31,7 @@
                         font-size: 22px;
                      }
                      .banner__btn{
+                         margin-top: 20px;
                          padding: 11px 40px;
                          border: 3px solid #7510F7;
                          border-radius: 100px;
@@ -37,6 +39,7 @@
                          color: white;
                          font-size: 40px;
                          font-weight: 500;
+                         background-color: transparent;
                      }
                     }
                 }

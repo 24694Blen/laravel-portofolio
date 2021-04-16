@@ -13,7 +13,7 @@
         &--title {
             color: black;
             text-align: center;
-            padding: 80px 0;
+            padding: 71px 0;
 
             h1 {
                 font-size: 40px;
@@ -21,7 +21,8 @@
             }
             p{
                 span{
-
+                    color: #7510F7;
+                    font-weight: 700;
                 }
             }
         }
@@ -46,6 +47,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
             list-style-type: none;
+            padding-left: 0;
 
             .projects__item {
                 padding: 10px 10px;

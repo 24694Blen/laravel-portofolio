@@ -386,6 +386,10 @@ header .header .header__social .header__list .header__item .header__btn svg {
   }
 }
 
+main {
+  border-top: 1px solid #E6ECF8;
+}
+
 .bloks {
   max-width: 69%;
   margin: auto;
@@ -434,264 +438,6 @@ header .header .header__social .header__list .header__item .header__btn svg {
   }
 }
 
-.aboutme .aboutme__text {
-  height: 100%;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.aboutme .aboutme__text .aboutme__left {
-  flex: 1 1 50%;
-  background-color: #f2f2f2;
-  padding: 29px 61px 99px 61px;
-}
-
-.aboutme .aboutme__text .aboutme__left .aboutme__text--h1 {
-  font-size: 60px;
-  padding-top: 32px;
-  color: #5680E9;
-  margin-bottom: 3px;
-  margin-top: 0;
-  font-weight: 700;
-  font-family: "Gilroy", sans-serif;
-}
-
-.aboutme .aboutme__text .aboutme__left .aboutme__text--p {
-  font-size: 20px;
-  color: #5680E9;
-  font-weight: 400;
-  font-family: "Gilroy", sans-serif;
-}
-
-.aboutme .aboutme__text .aboutme__left .aboutme__text--btn {
-  font-size: 20px;
-  background-color: transparent;
-  border: 1px solid #5680E9;
-  color: #5680E9;
-  font-weight: 700;
-  font-family: "Gilroy", sans-serif;
-  padding: 20px 30px;
-}
-
-.aboutme .aboutme__text .aboutme__right {
-  flex: 1 1 50%;
-}
-
-.aboutme .aboutme__text .aboutme__right .aboutme__title {
-  width: 100%;
-  background: #000;
-  margin-bottom: 100px;
-}
-
-.aboutme .aboutme__text .aboutme__right .aboutme__title--h1 {
-  color: #fff;
-  font-size: 60px;
-  font-family: "Gilroy", sans-serif;
-}
-
-.aboutme .aboutme__text .aboutme__right .aboutme__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__photo {
-  flex: 1 1 15%;
-}
-
-.aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__photo svg {
-  height: 227px;
-  width: auto;
-}
-
-.aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__photo p {
-  font-size: 20px;
-  font-family: "Gilroy", sans-serif;
-}
-
-@media only screen and (min-width: 767px) and (max-width: 768px) {
-  .aboutme .aboutme__text .aboutme__left {
-    flex: 1 1 100%;
-  }
-
-  .aboutme .aboutme__text .aboutme__right {
-    flex: 1 1 100%;
-  }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .aboutme .aboutme__text .aboutme__left {
-    flex: 1 1 100%;
-  }
-
-  .aboutme .aboutme__text .aboutme__right {
-    flex: 1 1 100%;
-  }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  .aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__photo {
-    flex: 1 1 100%;
-    margin-bottom: 20px;
-  }
-
-  .aboutme .aboutme__text .aboutme__right .aboutme__wrapper .aboutme__container {
-    flex: 1 1 100%;
-  }
-
-  .aboutme .aboutme__text .aboutme__right .aboutme__title {
-    margin-bottom: 27px;
-  }
-}
-
-@media (min-width: 2561px) {
-  .aboutme__photo {
-    flex: 1 1 50%;
-  }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.aboutme__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  position: relative;
-  font-family: "Gilroy", sans-serif;
-  flex: 1 1 50%;
-}
-
-.aboutme__container .card {
-  position: relative;
-  width: 250px;
-  background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  border-radius: 4px;
-  text-align: center;
-  overflow: hidden;
-  transition: 0.5s;
-  margin-bottom: 20px;
-}
-
-.aboutme__container .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-}
-
-.aboutme__container .card:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: -50%;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.03);
-  pointer-events: none;
-  z-index: 1;
-}
-
-.aboutme .percent {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  box-shadow: inset 0 0 50px #000;
-  background: #222;
-  z-index: 1000;
-}
-
-.aboutme .percent .number {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-}
-
-.aboutme .percent .number h2 {
-  color: #777;
-  font-weight: 700;
-  font-size: 40px;
-  transition: 0.5s;
-}
-
-.aboutme .card:hover .percent .number h2 {
-  color: #fff;
-  font-size: 60px;
-}
-
-.aboutme .percent .number h2 span {
-  color: #777;
-  font-size: 24px;
-}
-
-.aboutme .card:hover .percent .number h2 span {
-  color: #fff;
-}
-
-.aboutme .text {
-  position: relative;
-  color: #777;
-  margin-top: 20px;
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  transition: 0.5s;
-}
-
-.card:hover .text {
-  color: #fff;
-}
-
-.aboutme svg {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  z-index: 1000;
-}
-
-.aboutme svg circle {
-  width: 100%;
-  height: 100%;
-  fill: none;
-  stroke: #191919;
-  stroke-width: 10;
-  stroke-linecap: round;
-  transform: translate(5px, 5px);
-}
-
-.aboutme svg circle:nth-child(2) {
-  stroke-dasharray: 440;
-  stroke-dashoffset: 440;
-}
-
-.aboutme .card:nth-child(1) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(883 - (440 * 50) / 100);
-  stroke: #5680E9;
-}
-
-.aboutme .card:nth-child(2) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440 - (440 * 25) / 100);
-  stroke: #5AB9EA;
-}
-
-.aboutme .card:nth-child(3) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440 - (440 * 25) / 100);
-  stroke: #8860D0;
-}
-
 .projects * {
   font-size: 20px;
   font-family: "Gilroy", sans-serif;
@@ -706,12 +452,17 @@ header .header .header__social .header__list .header__item .header__btn svg {
 .projects .project__wrapper--title {
   color: black;
   text-align: center;
-  padding: 80px 0;
+  padding: 71px 0;
 }
 
 .projects .project__wrapper--title h1 {
   font-size: 40px;
   margin-bottom: 30px;
+}
+
+.projects .project__wrapper--title p span {
+  color: #7510F7;
+  font-weight: 700;
 }
 
 .projects .project__wrapper--bottom {
@@ -734,6 +485,7 @@ header .header .header__social .header__list .header__item .header__btn svg {
   flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
+  padding-left: 0;
 }
 
 .projects .project__wrapper .projects__list .projects__item {
@@ -804,10 +556,90 @@ header .header .header__social .header__list .header__item .header__btn svg {
   text-align: center;
 }
 
+.startup {
+  height: 526px;
+  background-color: #7510F7;
+}
+
+.startup * {
+  font-size: 20px;
+  font-family: "Gilroy", sans-serif;
+}
+
+.startup .startup__wrapper .startup__content {
+  padding: 100px 0;
+}
+
+.startup .startup__wrapper .startup__content .startup__top .startup__title {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.startup .startup__wrapper .startup__content .startup__text {
+  text-align: center;
+  color: white;
+}
+
+.startup .startup__wrapper .startup__content .startup__bloks {
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.startup .startup__wrapper .startup__content .startup__bloks .startup__list {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0;
+  top: 81px;
+  z-index: 999;
+  flex-wrap: wrap;
+}
+
+.startup .startup__wrapper .startup__content .startup__bloks .startup__list .startup__item {
+  padding: 0px 30px;
+  flex: 1 1 33.3333%;
+  padding-bottom: 40px;
+}
+
+.startup .startup__wrapper .startup__content .startup__bloks .startup__list .startup__item .startup__content {
+  box-shadow: 0px 0px 4px grey;
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px 20px;
+}
+
+.startup .startup__wrapper .startup__content .startup__bloks .startup__list .startup__item .startup__content .startup__title {
+  min-height: 130px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.startup .startup__wrapper .startup__content .startup__bloks .startup__list .startup__item .startup__content .startup__description {
+  text-align: center;
+}
+
+.startup .startup__wrapper .startup__content .startup__bloks .startup__list .startup__item .startup__content .startup__progress {
+  padding-top: 25px;
+  text-align: center;
+  color: #7510F7;
+  font-weight: 500;
+  padding-bottom: 38px;
+}
+
 .banner {
   font-family: "Gilroy", sans-serif;
   background-color: white;
-  height: 200px;
+  height: 800px;
   position: relative;
 }
 
@@ -824,8 +656,12 @@ header .header .header__social .header__list .header__item .header__btn svg {
   background-color: #141C3A;
 }
 
+.banner .banner__banner .banner__wrapper .banner__content {
+  height: 100%;
+}
+
 .banner .banner__banner .banner__wrapper .banner__content .banner__list {
-  padding-top: 65px;
+  padding-top: 40px;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -844,6 +680,7 @@ header .header .header__social .header__list .header__item .header__btn svg {
 }
 
 .banner .banner__banner .banner__wrapper .banner__content .banner__list .banner__item .banner__btn {
+  margin-top: 20px;
   padding: 11px 40px;
   border: 3px solid #7510F7;
   border-radius: 100px;
@@ -851,6 +688,7 @@ header .header .header__social .header__list .header__item .header__btn svg {
   color: white;
   font-size: 40px;
   font-weight: 500;
+  background-color: transparent;
 }
 
 @media (max-width: 767px) {
