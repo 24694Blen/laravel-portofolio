@@ -636,10 +636,50 @@ main {
   padding-bottom: 38px;
 }
 
+.investing * {
+  font-size: 20px;
+  font-family: "Gilroy", sans-serif;
+}
+
+.investing .investing__wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 713px;
+}
+
+.investing .investing__wrapper .investing__content {
+  text-align: center;
+}
+
+.investing .investing__wrapper .investing__content .investing__title {
+  text-align: center;
+}
+
+.investing .investing__wrapper .investing__content .investing__title h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.investing .investing__wrapper .investing__content .investing__text {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.investing .investing__wrapper .investing__content .investing__btn {
+  padding: 14px 40px;
+  border-radius: 50px;
+  color: #7510F7;
+  background-color: transparent;
+  border: 3px solid #7510F7;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .banner {
   font-family: "Gilroy", sans-serif;
   background-color: white;
-  height: 800px;
+  height: 363px;
   position: relative;
 }
 
