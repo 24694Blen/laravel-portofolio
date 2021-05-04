@@ -35,6 +35,8 @@ header {
 
                 .nav__item {
                     .active {
+                        border: transparent;
+                        background-color: white;
                         color: black;
                         font-weight: 700;
                     }

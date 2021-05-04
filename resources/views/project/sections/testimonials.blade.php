@@ -1,24 +1,25 @@
 
 <section class="testimonials">
+  <div>
+    <h2 class="testimonials__title">Testimonials</h2>
+    <p class="testimonials__text">People I've worked with have said some nice things...</p>
+  </div>
     <div class="slideshow-container">
 
         <div class="mySlides">
-          <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
-          <p class="author">- John Keats</p>
+          <img src="\images\avatar.jpg" alt="Avatar" style="width: auto;
+          height: 135px;"><br>
+          <q>“Matt was a real pleasure to work with and we look forward to working with him again. <br> He’s definitely the kind of designer you can trust with a project from start to finish.”</q>
+          <p class="author">John Keats</p>
+          <p class="author-job">Designer</p>
         </div>
         
         <div class="mySlides">
-          <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
-          <p class="author">- Ernest Hemingway</p>
-        </div>
-        
-        <div class="mySlides">
-            <img style="height: 60px; width: auto; border-radius: 50%;" src="\images\ultraviolet.jpg" alt="avatar">
-          <p class="testimonials__text">Blen is a good and hard working student.</p>
-          <p class="author">Thomas A. Edison
-              <br>
-             <span>Full-stack Developer</span> 
-          </p>
+          <img src="\images\avatar3.jpg" alt="Avatar" style="width: auto;
+          height: 135px;"><br>
+          <q>“Matt was a real pleasure to work with and we look forward to working with him again. <br> He’s definitely the kind of designer you can trust with a project from start to finish.”</q>
+          <p class="author">Ernest Hemingway</p>
+          <p class="author-job">Designer</p>
         </div>
         
         <a class="prev" onclick="plusSlides(-1)">❮</a>

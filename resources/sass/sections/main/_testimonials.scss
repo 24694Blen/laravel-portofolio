@@ -1,14 +1,35 @@
+* {
+  // border: 1px solid red;
+  font-size: 20px;
+  font-family: 'Gilroy', sans-serif;
+}
+
+.testimonials__title{
+  padding-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.testimonials__text{
+  text-align: center;
+  font-size: 20px;
+}
 /* Slideshow container */
 .slideshow-container {
     position: relative;
-    background: #f1f1f1f1;
+    background: #fff;
   }
   
   /* Slides */
   .mySlides {
     display: none;
-    padding: 80px;
+    padding-top: 55px;
+    padding-bottom: 80px;
     text-align: center;
+
+    img {
+      border-radius: 50%;
+    }
   }
   
   /* Next & previous buttons */
@@ -43,7 +64,7 @@
   .dot-container {
       text-align: center;
       padding: 20px;
-      background: #ddd;
+      background: #fff;
   }
   
   /* The dots/bullets/indicators */
@@ -66,7 +87,11 @@
   }
   
   /* Add an italic font style to all quotes */
-  q {font-style: italic;}
+  q {font-size: 20px;}
   
   /* Add a blue color to the author */
-  .author {color: cornflowerblue;}
+  .author {
+    color: black; 
+    font-weight: 700;
+    font-size: 20px;
+  }

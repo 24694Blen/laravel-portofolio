@@ -1,7 +1,7 @@
 .banner {
     font-family: "Gilroy", sans-serif;
     background-color: white;
-    height: 363px;
+    height: 225px;
     position: relative;
     .banner__banner {
         position: absolute;
@@ -12,6 +12,7 @@
         .banner__wrapper {
             height: 200px;
             background-color: #141C3A;
+            border-radius: 15px;
             .banner__content {
                 height: 100%;
                 .banner__list {
