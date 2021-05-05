@@ -1,9 +1,6 @@
 
 <section class="bloks">
     <div class="bloks__wrapper">
-        <div class="bloks__title">
-            <h1>ME</h1>
-        </div>
         <ul class="bloks__list">
             <li class="bloks__item">
                 <div class="bloks__content">

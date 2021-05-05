@@ -40,33 +40,7 @@
                             <div class="startup__progress">In development</div>
                         </div>
                     </li>
-                    <li class="startup__item">
-                        <div class="startup__content">
-                            <div class="startup__title">Coming soon</div>
-                            <div class="startup__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Eligendi ut repudiandae ipsum magnam suscipit perspiciatis harum voluptate qui quasi
-                                distinctio!</div>
-                            <div class="startup__progress">Coming soon</div>
-                        </div>
-                    </li>
-                    <li class="startup__item">
-                        <div class="startup__content">
-                            <div class="startup__title">Coming soon</div>
-                            <div class="startup__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Eligendi ut repudiandae ipsum magnam suscipit perspiciatis harum voluptate qui quasi
-                                distinctio!</div>
-                            <div class="startup__progress">Coming soon</div>
-                        </div>
-                    </li>
-                    <li class="startup__item">
-                        <div class="startup__content">
-                            <div class="startup__title">Coming soon</div>
-                            <div class="startup__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Eligendi ut repudiandae ipsum magnam suscipit perspiciatis harum voluptate qui quasi
-                                distinctio!</div>
-                            <div class="startup__progress">Coming soon</div>
-                        </div>
-                    </li>
+                    
                 </ul>
             </div>
         </div>

@@ -112,7 +112,7 @@ header .header .header__social .header__list .header__item .header__btn svg {
 }
 
 .footer .footer__wrapper {
-  max-width: 69%;
+  max-width: 86%;
   margin: 0 auto;
 }
 
@@ -394,7 +394,7 @@ main {
 }
 
 .bloks {
-  max-width: 69%;
+  max-width: 89%;
   margin: auto;
   background-color: white;
   padding: 40px;
@@ -441,7 +441,130 @@ main {
   }
 }
 
+.skills {
+  height: 703px;
+  background-color: #7510F7;
+}
+
+.skills * {
+  font-size: 20px;
+  font-family: "Gilroy", sans-serif;
+}
+
+.skills .skills__wrapper .skills__content {
+  padding: 100px 0;
+}
+
+.skills .skills__wrapper .skills__content .skills__top .skills__title {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.skills .skills__wrapper .skills__content .skills__text {
+  text-align: center;
+  color: white;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks {
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0;
+  top: 81px;
+  z-index: 999;
+  flex-wrap: wrap;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item {
+  padding: 0px 30px;
+  flex: 1 1 100%;
+  padding-bottom: 40px;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content {
+  box-shadow: 0px 0px 4px grey;
+  background-color: white;
+  border-radius: 37px;
+  padding: 30px 20px;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item {
+  flex: 1 1 33.3333%;
+  padding: 10px 66px;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content {
+  text-align: center;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content .img__item {
+  text-align: center;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content .img__item svg {
+  height: 100px;
+  width: auto;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content p {
+  margin-top: 0;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content .content__title {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content .content__title2 {
+  margin-bottom: 0;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content .content__title2--color {
+  color: #7510F7;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .skills__title {
+  min-height: 130px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .skills__description {
+  text-align: center;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .skills__progress {
+  padding-top: 25px;
+  text-align: center;
+  color: #7510F7;
+  font-weight: 500;
+  padding-bottom: 38px;
+}
+
 .projects {
+  padding-top: 420px;
   border-bottom: 1px solid #E6ECF8;
 }
 
@@ -452,7 +575,7 @@ main {
 
 .projects .project__wrapper {
   padding: 50px 0 130px 0;
-  max-width: 80%;
+  max-width: 87%;
   margin: 0 auto;
 }
 
@@ -641,7 +764,7 @@ main {
 }
 
 .startup .startup__wrapper .startup__content .startup__bloks .startup__list .startup__item {
-  padding: 0px 30px;
+  padding: 0px 12px;
   flex: 1 1 33.3333%;
   padding-bottom: 40px;
 }
@@ -689,7 +812,7 @@ main {
 .investing .investing__wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 713px;
+  margin-top: 360px;
 }
 
 .investing .investing__wrapper .investing__content {
