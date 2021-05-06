@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
   margin: 0px;
 }
@@ -1041,5 +1043,96 @@ q {
   .banner .banner__text .banner__text--h1 {
     font-size: 60px;
   }
+}
+
+.projectpage * {
+  font-size: 20px;
+  font-family: "Gilroy", sans-serif;
+}
+
+.projectpage .projectpage__wrapper {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list--right {
+  flex-direction: column;
+  padding-left: 23px;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list--right li::before {
+  content: "\2022";
+  color: #7510F7;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item {
+  flex: 1 1 45%;
+  padding-right: 66px;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item--right {
+  flex: 1 1 55%;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item .projectpage__title {
+  color: #7510F7;
+  font-weight: 700;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item .projectpage__img {
+  width: auto;
+  height: 185px;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item .projectpage__links {
+  display: flex;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item .projectpage__links .projectpage__live {
+  flex: 1 1 50%;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item .projectpage__links .projectpage__source {
+  flex: 1 1 50%;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item .projectpage__title2 {
+  color: #7510F7;
+  font-weight: 700;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item .projectpage__tech-list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item .projectpage__tech-list .projectpage__item {
+  flex: 1 1 50%;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item .projectpage__tech-list .projectpage__item .projectpage__list-used {
+  list-style-type: none;
+}
+
+.projectpage .projectpage__wrapper .projectpage__content .projectpage__list .projectpage__item .projectpage__tech-list .projectpage__item .projectpage__list-used li::before {
+  content: "\2022";
+  color: #7510F7;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.9em;
 }
 

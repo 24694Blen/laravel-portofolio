@@ -1,0 +1,98 @@
+.projectpage {
+    * {
+        // border: 1px solid red;
+        font-size: 20px;
+        font-family: 'Gilroy', sans-serif;
+    }
+
+    .projectpage__wrapper {
+        max-width: 60%;
+        margin: 0 auto;
+
+        .projectpage__content {
+            .projectpage__list {
+                display: flex;
+                list-style-type: none;
+                padding-left: 0;
+                &--right{
+                       flex-direction: column;
+                       padding-left: 23px;
+                       li::before {
+                        content: "\2022";
+                        color: #7510F7;
+                    
+                        font-weight: bold;
+                        display: inline-block; 
+                        width: 1em;
+                        margin-left: -1em;
+                      }
+                }
+                .projectpage__item {
+                    flex: 1 1 45%;
+                    padding-right: 66px;
+                    &--right-list{
+                       
+                    }
+                    &--right{
+                        flex: 1 1 55%;
+                        padding-left: 10px;
+                        padding-right: 0;
+                    }
+
+                    .projectpage__title {
+                        color: #7510F7;
+                        font-weight: 700;
+                    }
+
+                    .projectpage__img {
+                        width: auto;
+                        height: 185px;
+                    }
+
+                    .projectpage__links {
+                        display: flex;
+
+                        .projectpage__live {
+                            flex: 1 1 50%;
+                        }
+
+                        .projectpage__source {
+                            flex: 1 1 50%;
+                        }
+                    }
+                    .projectpage__description{
+
+                    }
+                    .projectpage__title2{
+                        color: #7510F7;
+                        font-weight: 700;
+                    }
+                    .projectpage__tech-list{
+                        display: flex;
+                        list-style-type: none;
+                        padding-left: 0;
+                        .projectpage__item{
+                            flex: 1 1 50%;
+                            .projectpage__list-used{
+                                list-style-type: none;
+                               li::before {
+                                    content: "\2022";
+                                    color: #7510F7;
+                                
+                                    font-weight: bold;
+                                    display: inline-block; 
+                                    width: 1em;
+                                    margin-left: -1.9em;
+                                  }
+                                .projectpage__item-tech{
+                                    
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

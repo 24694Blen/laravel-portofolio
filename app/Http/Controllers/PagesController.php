@@ -10,4 +10,8 @@ class PagesController extends Controller
     {
         return view('project.home');
     }
+    public function Projects()
+    {
+        return view('project.project-page');
+    }
 }

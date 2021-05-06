@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 //project
 Route::get('/home', 'PagesController@Home')->name('home');
+Route::get('/projects', 'PagesController@Projects')->name('project-page');
