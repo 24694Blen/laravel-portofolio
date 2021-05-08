@@ -85,7 +85,7 @@ header .header .header__img {
 
 header .header .header__text {
   text-align: center;
-  font-size: 70px;
+  font-size: 3rem;
   color: #7510F7;
   font-weight: 700;
 }
@@ -411,7 +411,7 @@ main {
   text-decoration: none;
   color: black;
   font-family: "Gilroy", sans-serif;
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .bloks .bloks__wrapper .bloks__list {
@@ -460,14 +460,20 @@ main {
 .skills .skills__wrapper .skills__content .skills__top .skills__title {
   padding: 20px 0;
   text-align: center;
-  font-size: 40px;
+  font-size: 32px;
   color: white;
   font-weight: bold;
 }
 
+.skills .skills__wrapper .skills__content .skills__top {
+  padding: 0 200px;
+}
+
 .skills .skills__wrapper .skills__content .skills__text {
+  font-weight: 300;
   text-align: center;
   color: white;
+  font-size: 20px;
 }
 
 .skills .skills__wrapper .skills__content .skills__bloks {
@@ -495,10 +501,11 @@ main {
 }
 
 .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content {
-  box-shadow: 0px 0px 4px grey;
+  box-shadow: 0px 0px 4px #E6ECF8;
   background-color: white;
-  border-radius: 37px;
-  padding: 30px 20px;
+  border-radius: 6px;
+  padding: 0px 0px;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
 }
 
 .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list {
@@ -509,7 +516,8 @@ main {
 
 .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item {
   flex: 1 1 33.3333%;
-  padding: 10px 66px;
+  padding: 55px 66px;
+  border: 1px solid #E6ECF8;
 }
 
 .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content {
@@ -521,25 +529,38 @@ main {
 }
 
 .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content .img__item svg {
-  height: 100px;
+  height: 60px;
   width: auto;
 }
 
 .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content p {
-  margin-top: 0;
+  margin-bottom: 36px;
+  font-size: 20px;
 }
 
 .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content .content__title {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 24px;
+  margin: 24px 0;
 }
 
 .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content .content__title2 {
-  margin-bottom: 0;
+  margin-bottom: 8px;
+  margin-top: 50px;
+  font-weight: 500;
 }
 
 .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content .content__title2--color {
   color: #7510F7;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item .content__content ul li {
+  margin-top: 0.25em;
 }
 
 .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .skills__title {
@@ -566,7 +587,7 @@ main {
 }
 
 .projects {
-  padding-top: 420px;
+  padding-top: 500px;
   border-bottom: 1px solid #E6ECF8;
 }
 
@@ -588,7 +609,7 @@ main {
 }
 
 .projects .project__wrapper--title h1 {
-  font-size: 40px;
+  font-size: 32px;
   margin-bottom: 30px;
 }
 
@@ -608,7 +629,7 @@ main {
   color: #7510F7;
   border: 3px solid #7510F7;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -705,7 +726,7 @@ main {
 }
 
 .collaborated .collaborated__wrapper--title h1 {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .collaborated .collaborated__wrapper .collaborated__list {
@@ -738,7 +759,7 @@ main {
 .startup .startup__wrapper .startup__content .startup__top .startup__title {
   padding: 20px 0;
   text-align: center;
-  font-size: 40px;
+  font-size: 32px;
   color: white;
   font-weight: bold;
 }
@@ -826,7 +847,7 @@ main {
 }
 
 .investing .investing__wrapper .investing__content .investing__title h1 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 700;
 }
 

@@ -5,9 +5,9 @@
             <div class="startup__top">
                 <div class="startup__title">My Startup Projects And Work Projects</div>
                 <div class="startup__text">
-                    I’m a bit of a digital product junky. Over the years, I’ve used hundreds of web and mobile <br> apps
-                    in different industries and verticals. Eventually, I decided that it would be a fun <br> challenge
-                    to try designing and building my own.</div>
+                    Over the years, I’ve made a lot of web and mobile apps <br>
+                   And I have a lot of interesting ideas.. Eventually, I decided that it would be a fun <br> challenge
+                    to try designing and building my own ideas in reality.</div>
 
             </div>
             <div class="startup__bloks">
