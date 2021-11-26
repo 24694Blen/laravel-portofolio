@@ -19335,6 +19335,8 @@ var _require = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.j
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+__webpack_require__(/*! ./sticky-scroll/sticky_scroll */ "./resources/js/sticky-scroll/sticky_scroll.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -19366,6 +19368,20 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/sticky-scroll/sticky_scroll.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/sticky-scroll/sticky_scroll.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+window.addEventListener("scroll", function () {
+  var nav = document.querySelector("nav");
+  nav.classList.toggle("sticky", window.scrollY > 0);
+});
 
 /***/ }),
 

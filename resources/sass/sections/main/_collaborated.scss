@@ -30,8 +30,34 @@
                 margin-top: 30px;
             flex: 0 1 25%;
             }
+            .next-img{
+                width: auto;
+                height: 90px;
+            }
+            .vwe-img{
+                width: auto;
+                height: 90px;
+            }
+            .mediacollege-img{
+                width: auto;
+                height: 90px;
+            }
+            .robin-img{
+                width: auto;
+                height: 90px;
+            }
 
         }
     }
                 
+}
+@media (max-width: 767px) {
+    .collaborated .collaborated__wrapper .collaborated__list .next-img {
+        width: auto;
+        height: 62px;
+    }
+    .collaborated .collaborated__wrapper .collaborated__list .robin-img {
+        width: auto;
+        height: 76px;
+    }
 }

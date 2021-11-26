@@ -27,7 +27,7 @@
 <body>
     <div class="wrapper" id="app">
         <header>
-            <nav class="nav">
+            <nav>
                 <div class="nav__left">
                     <a href=""><img class="nav__logo" src="\images\thenewguy887-01.svg" alt="small-logo"></a>
                 </div>
@@ -82,7 +82,7 @@
                             </li>
                             <li class="footer__item">
                                 <p class="footer__item--description">
-                                    Ik ben jong, gemotiveerd en leergierig. Ik hou van een uitdaging
+                                     Ik ben jong, gemotiveerd en leergierig. Ik hou van een uitdaging
                                 </p>
                             </li>
                         </ul>

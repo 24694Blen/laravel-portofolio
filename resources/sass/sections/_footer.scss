@@ -221,6 +221,9 @@
     .footer__item--description {
         text-align: center;
     }
+    .footer .footer__wrapper .footer__upper .footer__three .footer__list .footer__item .footer__social .footer__list .footer__item .footer__btn svg {
+        height: 66px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -292,6 +295,7 @@
     .footer .footer__upper .footer__four {
         flex: 1 1 100%;
     }
+    
 
 
 }

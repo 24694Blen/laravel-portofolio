@@ -2,13 +2,26 @@ header {
     padding-bottom: 40px;
     font-family: "Gilroy", sans-serif;
 
-    .nav {
+    .sticky {
+        position: fixed;
+        background-color: red;
+        position: fixed;
+        box-shadow: 0px 3px 10px gray;
+        position: fixed;
+        z-index: 999;
+    }
+
+
+    nav {
         width: 100%;
         background-color: red;
         height: 130px;
         display: flex;
-        box-shadow: 0px 3px 10px gray;
+        // box-shadow: 0px 3px 10px gray;
+        // position: fixed;
+        // z-index: 999;
 
+   
         .nav__left {
             background-color: white;
             flex: 1 1 20%;
@@ -68,7 +81,7 @@ header {
             /* The image used */
             background-color: transparent;
             /* Used if the image is unavailable */
-            height: 500px;
+            height: 760px;
             /* You must set a specified height */
             background-position: center;
             /* Center the image */
@@ -109,3 +122,59 @@ header {
         }
     }
 }
+@media (max-width: 767px) {
+    header nav {
+        width: 100%;
+        background-color: red;
+        height: 130px;
+        display: none;
+    }
+    header .header .header__img {
+        background-image: url(/images/thenewguy887-01.png);
+        background-color: transparent;
+        height: 295px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 376px auto;
+    }
+    header nav .nav__right .nav__list {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header .header .header__social .header__list .header__item .header__btn svg {
+        height: 71px;
+    }
+    header .header .header__text {
+        text-align: center;
+        font-size: 2.7rem;
+        color: #7510F7;
+        font-weight: 700;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    header nav .nav__right .nav__list {
+        padding-left: 0px !important;
+        padding-right: 21px !important;
+    }
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 1024px) {
+    
+    header nav .nav__right .nav__list {
+        padding-left: 106px;
+        
+    }
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1440px) {
+   
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 2560px) {}

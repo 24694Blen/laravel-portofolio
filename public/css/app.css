@@ -13,30 +13,38 @@ header {
   font-family: "Gilroy", sans-serif;
 }
 
-header .nav {
+header .sticky {
+  position: fixed;
+  background-color: red;
+  position: fixed;
+  box-shadow: 0px 3px 10px gray;
+  position: fixed;
+  z-index: 999;
+}
+
+header nav {
   width: 100%;
   background-color: red;
   height: 130px;
   display: flex;
-  box-shadow: 0px 3px 10px gray;
 }
 
-header .nav .nav__left {
+header nav .nav__left {
   background-color: white;
   flex: 1 1 20%;
 }
 
-header .nav .nav__left a .nav__logo {
+header nav .nav__left a .nav__logo {
   height: 170px;
   width: auto;
 }
 
-header .nav .nav__right {
+header nav .nav__right {
   background-color: white;
   flex: 1 1 80%;
 }
 
-header .nav .nav__right .nav__list {
+header nav .nav__right .nav__list {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -45,20 +53,20 @@ header .nav .nav__right .nav__list {
   padding-top: 46px;
 }
 
-header .nav .nav__right .nav__list .nav__item .active {
+header nav .nav__right .nav__list .nav__item .active {
   border: transparent;
   background-color: white;
   color: black;
   font-weight: 700;
 }
 
-header .nav .nav__right .nav__list .nav__item a {
+header nav .nav__right .nav__list .nav__item a {
   color: #7510F7;
   text-decoration: none;
   font-size: 20px;
 }
 
-header .nav .nav__right .nav__list .nav__item .nav__btn {
+header nav .nav__right .nav__list .nav__item .nav__btn {
   padding: 10px 20px;
   border-radius: 50px;
   color: 7510F7;
@@ -73,7 +81,7 @@ header .header .header__img {
   /* The image used */
   background-color: transparent;
   /* Used if the image is unavailable */
-  height: 500px;
+  height: 760px;
   /* You must set a specified height */
   background-position: center;
   /* Center the image */
@@ -106,6 +114,53 @@ header .header .header__social .header__list .header__item {
 
 header .header .header__social .header__list .header__item .header__btn svg {
   height: 113px;
+}
+
+@media (max-width: 767px) {
+  header nav {
+    width: 100%;
+    background-color: red;
+    height: 130px;
+    display: none;
+  }
+
+  header .header .header__img {
+    background-image: url(/images/thenewguy887-01.png);
+    background-color: transparent;
+    height: 295px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 376px auto;
+  }
+
+  header nav .nav__right .nav__list {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  header .header .header__social .header__list .header__item .header__btn svg {
+    height: 71px;
+  }
+
+  header .header .header__text {
+    text-align: center;
+    font-size: 2.7rem;
+    color: #7510F7;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 768px) {
+  header nav .nav__right .nav__list {
+    padding-left: 0px !important;
+    padding-right: 21px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  header nav .nav__right .nav__list {
+    padding-left: 106px;
+  }
 }
 
 .footer {
@@ -316,6 +371,10 @@ header .header .header__social .header__list .header__item .header__btn svg {
   .footer__item--description {
     text-align: center;
   }
+
+  .footer .footer__wrapper .footer__upper .footer__three .footer__list .footer__item .footer__social .footer__list .footer__item .footer__btn svg {
+    height: 66px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -490,7 +549,7 @@ main {
   list-style-type: none;
   padding-left: 0;
   top: 81px;
-  z-index: 999;
+  z-index: 995;
   flex-wrap: wrap;
 }
 
@@ -584,6 +643,56 @@ main {
   color: #7510F7;
   font-weight: 500;
   padding-bottom: 38px;
+}
+
+@media (max-width: 767px) {
+  .skills {
+    height: 3066px !important;
+    background-color: #7510F7;
+  }
+
+  .skills .skills__wrapper .skills__content .skills__top {
+    padding: 0px 19px !important;
+  }
+
+  .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+
+  .skills .skills__wrapper .skills__content .skills__top {
+    padding: 0 16px !important;
+  }
+
+  .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list .content__item {
+    flex: 1 1 33.3333%;
+    padding: 55px 17px;
+    border: 1px solid #E6ECF8;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item {
+    padding: 0px 2px;
+  }
+
+  .skills .skills__wrapper .skills__content .skills__top {
+    padding: 0 72px;
+  }
+
+  .skills {
+    height: 1184px;
+    background-color: #7510F7;
+  }
+
+  .skills .skills__wrapper .skills__content .skills__bloks .skills__list .skills__item .skills__content .content__list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
 }
 
 .projects {
@@ -709,6 +818,25 @@ main {
   text-align: center;
 }
 
+@media (max-width: 767px) {
+  .projects {
+    padding-top: 0px;
+    border-bottom: 1px solid #E6ECF8;
+  }
+
+  .projects .project__wrapper .projects__list .projects__item {
+    padding: 10px 10px;
+    flex: 1 1 100% !important;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .projects .project__wrapper .projects__list .projects__item {
+    padding: 10px 10px;
+    flex: 1 1 50%;
+  }
+}
+
 .collaborated * {
   font-size: 20px;
   font-family: "Gilroy", sans-serif;
@@ -740,6 +868,38 @@ main {
 .collaborated .collaborated__wrapper .collaborated__list .collaborated__item {
   margin-top: 30px;
   flex: 0 1 25%;
+}
+
+.collaborated .collaborated__wrapper .collaborated__list .next-img {
+  width: auto;
+  height: 90px;
+}
+
+.collaborated .collaborated__wrapper .collaborated__list .vwe-img {
+  width: auto;
+  height: 90px;
+}
+
+.collaborated .collaborated__wrapper .collaborated__list .mediacollege-img {
+  width: auto;
+  height: 90px;
+}
+
+.collaborated .collaborated__wrapper .collaborated__list .robin-img {
+  width: auto;
+  height: 90px;
+}
+
+@media (max-width: 767px) {
+  .collaborated .collaborated__wrapper .collaborated__list .next-img {
+    width: auto;
+    height: 62px;
+  }
+
+  .collaborated .collaborated__wrapper .collaborated__list .robin-img {
+    width: auto;
+    height: 76px;
+  }
 }
 
 .startup {
@@ -782,7 +942,7 @@ main {
   list-style-type: none;
   padding-left: 0;
   top: 81px;
-  z-index: 999;
+  z-index: 994;
   flex-wrap: wrap;
 }
 
@@ -820,6 +980,24 @@ main {
   color: #7510F7;
   font-weight: 500;
   padding-bottom: 38px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .startup {
+    height: 1000px;
+    background-color: #7510F7;
+  }
+
+  .startup {
+    height: 1964px;
+    background-color: #7510F7;
+  }
+
+  .startup .startup__wrapper .startup__content .startup__bloks .startup__list .startup__item {
+    padding: 0px 12px;
+    flex: 1 1 100%;
+    padding-bottom: 16px;
+  }
 }
 
 .investing {
@@ -1048,6 +1226,10 @@ q {
   .banner .banner__text .banner__text--btn {
     font-size: 16px;
   }
+
+  .banner {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 768px) {
@@ -1058,11 +1240,45 @@ q {
   .banner .banner__text .banner__text--btn {
     font-size: 16px;
   }
+
+  .banner .banner__banner {
+    position: revert;
+    /* bottom: -108px; */
+    /* width: 100%; */
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .banner .banner__banner .banner__wrapper .banner__content .banner__list {
+    padding-top: 16px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .banner .banner__text .banner__text--h1 {
     font-size: 60px;
+  }
+
+  .banner .banner__banner .banner__wrapper .banner__content .banner__list {
+    padding-top: 18px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .banner .banner__banner .banner__wrapper .banner__content .banner__list .banner__item .banner__btn {
+    margin-top: 36px;
+    margin-left: 42px;
+    padding: 0px 63px;
+    border: 3px solid #7510F7;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 29px;
+    font-weight: 500;
+    background-color: transparent;
   }
 }
 

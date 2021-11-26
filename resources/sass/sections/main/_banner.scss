@@ -3,45 +3,52 @@
     background-color: white;
     height: 225px;
     position: relative;
+
     .banner__banner {
         position: absolute;
         bottom: -108px;
         width: 100%;
         padding-left: 100px;
         padding-right: 100px;
+
         .banner__wrapper {
             height: 200px;
             background-color: #141C3A;
             border-radius: 15px;
+
             .banner__content {
                 height: 100%;
+
                 .banner__list {
                     padding-top: 40px;
                     list-style-type: none;
                     display: flex;
                     justify-content: space-around;
+
                     .banner__item {
-                    h1{
-                        color: white;
-                        font-size: 40px;
-                    }
-                     p{
-                        font-style: italic;
-                        color: white;
-                        text-align: center;
-                        font-size: 22px;
-                     }
-                     .banner__btn{
-                         margin-top: 20px;
-                         padding: 11px 40px;
-                         border: 3px solid #7510F7;
-                         border-radius: 100px;
-                         text-decoration: none;
-                         color: white;
-                         font-size: 40px;
-                         font-weight: 500;
-                         background-color: transparent;
-                     }
+                        h1 {
+                            color: white;
+                            font-size: 40px;
+                        }
+
+                        p {
+                            font-style: italic;
+                            color: white;
+                            text-align: center;
+                            font-size: 22px;
+                        }
+
+                        .banner__btn {
+                            margin-top: 20px;
+                            padding: 11px 40px;
+                            border: 3px solid #7510F7;
+                            border-radius: 100px;
+                            text-decoration: none;
+                            color: white;
+                            font-size: 40px;
+                            font-weight: 500;
+                            background-color: transparent;
+                        }
                     }
                 }
 
@@ -62,6 +69,9 @@
     .banner .banner__text .banner__text--btn {
         font-size: 16px;
     }
+    .banner{
+        display: none;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -73,12 +83,43 @@
     .banner .banner__text .banner__text--btn {
         font-size: 16px;
     }
+    .banner .banner__banner {
+        position: revert; 
+        /* bottom: -108px; */
+        /* width: 100%; */
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .banner .banner__banner .banner__wrapper .banner__content .banner__list {
+        padding-top: 16px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .banner .banner__text .banner__text--h1 {
         font-size: 60px;
+    }
+    .banner .banner__banner .banner__wrapper .banner__content .banner__list {
+        padding-top: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .banner .banner__banner .banner__wrapper .banner__content .banner__list .banner__item .banner__btn {
+        margin-top: 36px;
+        margin-left: 42px;
+        padding: 0px 63px;
+        border: 3px solid #7510F7;
+        border-radius: 100px;
+        text-decoration: none;
+        color: white;
+        font-size: 29px;
+        font-weight: 500;
+        background-color: transparent;
     }
 }
 
