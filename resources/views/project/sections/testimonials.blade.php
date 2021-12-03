@@ -7,7 +7,7 @@
     <div class="slideshow-container">
 
         <div class="mySlides">
-          <img src="\images\avatar.jpg" alt="Avatar" style="width: auto;
+          <img src=".\images\avatar.jpg" alt="Avatar" style="width: auto;
           height: 135px;"><br>
           <q>“Matt was a real pleasure to work with and we look forward to working with him again. <br> He’s definitely the kind of designer you can trust with a project from start to finish.”</q>
           <p class="author">John Keats</p>
@@ -15,7 +15,7 @@
         </div>
         
         <div class="mySlides">
-          <img src="\images\avatar3.jpg" alt="Avatar" style="width: auto;
+          <img src=".\images\avatar3.jpg" alt="Avatar" style="width: auto;
           height: 135px;"><br>
           <q>“Matt was a real pleasure to work with and we look forward to working with him again. <br> He’s definitely the kind of designer you can trust with a project from start to finish.”</q>
           <p class="author">Ernest Hemingway</p>

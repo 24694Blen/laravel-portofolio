@@ -57,12 +57,13 @@
 
                 .projects__content {
                     position: relative;
+                  
 
                     
                     .projects__card {
                         .projects__top {
                             border-radius: 12px;
-                            background-image: url("/images/ultraviolet.jpg");
+                            background-image: url("../images/ultraviolet.jpg");
                             /* The image used */
                             height: 300px;
                             /* You must set a specified height */

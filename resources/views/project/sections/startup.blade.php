@@ -14,7 +14,7 @@
                 <ul class="startup__list">
                     <li class="startup__item">
                         <div class="startup__content">
-                            <div class="startup__title"><img src="\images\thenewguy887-01.svg"
+                            <div class="startup__title"><img src=".\images\thenewguy887-01.svg"
                                     style="height: 120px; width: auto;" alt=""></div>
                             <div class="startup__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                 Eligendi ut repudiandae ipsum magnam suscipit perspiciatis harum voluptate qui quasi
