@@ -152,11 +152,19 @@ header {
     }
 }
 
+
+
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
     header nav .nav__right .nav__list {
         padding-left: 0px !important;
         padding-right: 21px !important;
+    }
+    header nav .nav__right .nav__list {
+        padding-top: 28px;
+    }
+    header nav {
+        height: 108px;
     }
     
 }

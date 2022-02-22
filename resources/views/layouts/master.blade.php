@@ -113,7 +113,7 @@
                                 <a class="footer__item--text footer__item--title" href="">Contact</a>
                             </li>
                             <li class="footer__item">
-                                <p class="footer__item--text">E-mail: <a href="">blen2001@2outlook.com</a></p>
+                                <p class="footer__item--text">E-mail: <a href="">blen2001@outlook.com</a></p>
                             </li>
                             <li class="footer__item">
                                 <p class="footer__item--text">Tel: <a href="">0628221992</a></p>

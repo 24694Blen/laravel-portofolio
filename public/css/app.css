@@ -139,6 +139,14 @@ header .header .header__social .header__list .header__item .header__btn svg {
     padding-left: 0px !important;
     padding-right: 21px !important;
   }
+
+  header nav .nav__right .nav__list {
+    padding-top: 28px;
+  }
+
+  header nav {
+    height: 108px;
+  }
 }
 @media (max-width: 1024px) {
   header nav .nav__right .nav__list {
@@ -566,9 +574,9 @@ main {
   padding-bottom: 38px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 425px) {
   .skills {
-    height: 3066px !important;
+    height: 2410px !important;
     background-color: #7510F7;
   }
 
@@ -612,6 +620,18 @@ main {
     list-style-type: none;
     flex-wrap: wrap;
     padding-left: 0px;
+  }
+
+  .investing .investing__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 181px;
+  }
+}
+@media (max-width: 1024px) {
+  .skills {
+    height: 1038px;
+    background-color: #7510F7;
   }
 }
 .projects {
@@ -722,12 +742,13 @@ main {
   text-align: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 425px) {
   .projects {
-    padding-top: 0px;
+    padding-top: 452px;
     border-bottom: 1px solid #E6ECF8;
   }
-
+}
+@media (max-width: 767px) {
   .projects .project__wrapper .projects__list .projects__item {
     padding: 10px 10px;
     flex: 1 1 100% !important;
@@ -737,6 +758,12 @@ main {
   .projects .project__wrapper .projects__list .projects__item {
     padding: 10px 10px;
     flex: 1 1 50%;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .projects {
+    padding-top: 892px;
+    border-bottom: 1px solid #E6ECF8;
   }
 }
 .collaborated * {
@@ -919,6 +946,11 @@ main {
   font-weight: 500;
 }
 
+@media (max-width: 425px) {
+  .investing {
+    padding: 890px 0 0 0;
+  }
+}
 @media (max-width: 767px) {
   .investing {
     padding-bottom: 71px;
@@ -962,6 +994,8 @@ main {
   display: none;
   padding-top: 55px;
   padding-bottom: 80px;
+  padding-left: 25px;
+  padding-right: 25px;
   text-align: center;
 }
 .mySlides img {
@@ -1142,7 +1176,7 @@ q {
 
   .banner .banner__banner {
     position: absolute;
-    bottom: -108px;
+    bottom: -75px;
     width: 100%;
     padding-left: 37px;
     padding-right: 36px;

@@ -130,13 +130,19 @@
     text-align: center;
 }
 }
+@media (max-width: 425px) {
+    .projects {
+        padding-top: 452px;
+        border-bottom: 1px solid #E6ECF8;
+    }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 767px) {
-    .projects {
-        padding-top: 0px;
-        border-bottom: 1px solid #E6ECF8;
-    }
+    // .projects {
+    //     padding-top: 0px;
+    //     border-bottom: 1px solid #E6ECF8;
+    // }
     .projects .project__wrapper .projects__list .projects__item {
         padding: 10px 10px;
         flex: 1 1 100% !important;
@@ -149,8 +155,14 @@
         padding: 10px 10px;
         flex: 1 1 50%;
     }
+   
 }
-
+@media (min-width: 426px) and (max-width: 768px) {
+    .projects {
+        padding-top: 892px;
+        border-bottom: 1px solid #E6ECF8;
+    }
+}
 // Large devices (desktops, 992px and up)
 @media only screen and (min-width: 769px) and (max-width: 1024px) {}
 
